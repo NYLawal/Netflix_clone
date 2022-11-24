@@ -114,11 +114,15 @@ body {
 #form-base button {
   height: 60px;
   background-color: #e50914;
-  color: #f3f3f3;
   border: none;
-  font-size: 30px;
   padding: auto 15px;
   width: 235px;
+}
+
+#form-base button a{
+  color: #f3f3f3;
+  font-size: 30px;
+  text-decoration: none;
 }
 
 #main {
