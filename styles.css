@@ -1,0 +1,387 @@
+* {
+  box-sizing: border-box;
+  font-family: Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+body {
+  color: #f3f3f3;
+  background-color: #f3f3f3;
+}
+
+
+/* HEADER SECTION */
+
+#intro {
+  background-image: linear-gradient(to bottom,
+      rgba(0, 0, 0, 0.856),
+      rgba(22, 19, 19, 0.6) 50%,
+      rgba(0, 0, 0, 0.856)),
+    url("images/net.jpg");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  height: 680px;
+}
+
+#top_line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: -20px 40px;
+}
+
+#top_line img {
+  width: 130px;
+  height: 135px;
+}
+
+#top_line a {
+  background-color: #e50914;
+  font-size: 16px;
+  font-weight: bolder;
+  border-radius: 4px;
+  padding: 7px 17px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+#main_caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 120px auto 12px;
+  text-align: center;
+}
+
+#main_caption * {
+  margin: 0 auto;
+}
+
+#heading {
+  font-size: 50px;
+  margin: 0 auto;
+  font-weight: 650;
+  line-height: 55px;
+}
+
+.line:after {
+  content: "\A";
+  white-space: pre;
+}
+
+#subheading {
+  font-size: 28px;
+  margin: 15px auto 20px;
+  font-weight: lighter;
+  font-weight: 400;
+}
+
+.main-form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-form label {
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#form-base {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#form-base input {
+  height: 60px;
+  padding: 10px;
+  width: 435px;
+  font-size: 15px;
+}
+
+#form-base button {
+  height: 60px;
+  background-color: #e50914;
+  color: #f3f3f3;
+  border: none;
+  font-size: 30px;
+  padding: auto 15px;
+  width: 235px;
+}
+
+#main {
+  position: absolute;
+  top: 680px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+}
+
+/* SECOND SECTION - video plus image */
+
+.section {
+  border-top: 8px solid #222;
+  background-color: black;
+  width: 100%;
+  padding-bottom: 130px;
+}
+
+.section-div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.caption {
+  width: 500px;
+  margin-top: 90px;
+  margin-left: -250px;
+  z-index: 2;
+}
+
+.caption-heading {
+  font-size: 50px;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.caption-description {
+  font-size: 25px;
+  padding: 0;
+  text-align: left;
+  width: 500px;
+  margin-top: 15px;
+}
+
+.image-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#tv-image {
+  border: 0;
+  height: auto;
+  max-width: 500px;
+  top: 35px;
+  right: 110px;
+  position: absolute;
+  z-index: 1;
+}
+
+#tv-video {
+  position: absolute;
+  top: 100px;
+  right: 180px;
+  z-index: 0;
+}
+
+/* THIRD SECTION - mobile image*/
+
+#phone-image {
+  height: 380px;
+}
+
+#download-image {
+  width: 45px;
+  height: 45px;
+  margin-left: 80px;
+}
+
+#book-image {
+  width: 50px;
+  height: 70px;
+}
+
+#book-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgb(3, 3, 3);
+  border: 2px solid #222;
+  border-radius: 10px;
+  padding: 5px 10px 10px;
+  width: 325px;
+  margin-bottom: -30px;
+  position: absolute;
+  bottom: 60px;
+}
+
+#book-container p {
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+#book-container .blue {
+  color: rgb(11, 99, 230);
+  font-weight: normal;
+  font-size: 15px;
+}
+
+#third-section .image-description {
+  position: relative;
+  margin-left: -100px;
+}
+
+#third-section .section-div {
+  margin-top: 5px;
+  justify-content: space-around;
+}
+
+#third-section .caption {
+  width: 550px;
+  margin-bottom: 90px;
+}
+
+#third-section .caption-description,
+#fourth-section .caption-description {
+  font-size: 27px;
+  width: 550px;
+}
+
+#third-section {
+  padding-bottom: 0px;
+}
+
+/* FOURTH SECTION - with no image */
+
+#fourth-section .section-div {
+  justify-content: space-between;
+  padding-bottom: 0;
+}
+
+#fourth-section .caption {
+  width: 600px;
+  margin-top: 0px;
+  margin-left: 150px;
+  padding-bottom: 0;
+}
+
+#fourth-section,
+#seventh-section {
+  padding-bottom: 30px;
+}
+
+/* FIFTH SECTION - kids */
+
+#fifth-section .caption {
+  width: 600px;
+  margin-top: 20px;
+}
+
+#fifth-section .section-div {
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+  padding-top: 0;
+}
+
+#fifth-section {
+  padding-bottom: 0px;
+}
+
+#kids-image {
+  width: 500px;
+  margin-top: 50px;
+  margin-left: 70px;
+  margin-right: 220px;
+}
+
+/* SIXTH SECTION - FAQS */
+
+.faq-section h1 {
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.faq-section .details-container {
+  margin: 0 auto;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  text-align: left;
+  margin-bottom: 65px;
+}
+
+.faq-section details {
+  width: 100%;
+  background-color: rgb(48, 47, 47);
+  font-size: 25px;
+  padding: 18px;
+  padding-left: 35px;
+}
+
+details>summary {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+details p:nth-child(2) {
+  border-top: 1px solid rgb(3, 3, 3);
+  margin-top: 10px;
+  padding-top: 25px;
+  padding-bottom: 0px;
+}
+
+details p {
+  padding-right: 8px;
+}
+
+#sixth-section {
+  padding-bottom: 100px;
+}
+
+/* SEVENTH SECTION - footer */
+
+#footer {
+  color: rgb(90, 90, 90);
+  margin-top: 50px;
+  margin-left: -150px;
+}
+
+#footer p {
+  text-align: left;
+  margin-left: 40px;
+}
+
+#footer-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 80px;
+}
+
+.sublinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: left;
+  gap: 10px;
+  text-align: left;
+  list-style-type: none;
+}
+
+#footer-links a {
+  text-decoration: none;
+  font-size: smaller;
+  color: rgb(90, 90, 90);
+}

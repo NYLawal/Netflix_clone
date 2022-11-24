@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Netflix Landing Page Clone</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- THE MAIN HEADER SECTION WITH BACKGROUND IMAGE -->
+  <header>
+    <div id="intro">
+      <div id="top_line">
+        <img src="images/netflix.png" alt="netflix icon" />
+        <a href="#">Sign In</a>
+      </div>
+
+      <div id="main_caption">
+        <h1 id="heading">
+          <span class="line"> Unlimited movies, TV </span>
+          <span> shows, and more.</span>
+        </h1>
+        <h2 id="subheading">Watch anywhere. Cancel anytime.</h2>
+      </div>
+      <form>
+        <div class="main-form">
+          <label>
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </label>
+          <div id="form-base">
+            <input type="email" placeholder="Email address" />
+            <button>Get Started ></button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </header>
+
+  <!-- ALL OTHER SECTIONS ARE CONTAINED HERE -->
+  <div id="main">
+
+    <!-- THE SECTION SHOWING A VIDEO PLAYING ON A TV -->
+    <section id="second-section" class="section">
+      <div class="section-div">
+
+        <div class="caption">
+          <h1 class="caption-heading">Enjoy on your TV.</h1>
+          <p class="caption-description">
+            Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray
+            players, and more.
+          </p>
+        </div>
+
+        <div class="image-description">
+          <video id="tv-video" width="365" height="235" controls autoplay="" loop>
+            <source src="images/video-tv-0819.mp4" type="video/mp4" />
+          </video>
+          <img id="tv-image" src="images/tvImage.png" alt="flat screen tv" />
+        </div>
+
+      </div>
+    </section>
+
+    <!-- THE SECTION SHOWING A MOBILE VIEW -->
+    <section id="third-section" class="section">
+      <div class="section-div" class="third-section">
+
+        <div class="image-description" class="adjust-flex">
+          <img id="phone-image" src="images/mobile-Image.jpg" alt="mobile phone" />
+          <div id="book-container">
+            <img id="book-image" src="images/bookImage.png" alt="stranger things image" />
+            <p><span class="line">Stranger Things</span><span class="blue">Downloading...</span></p>
+            <img id="download-image" src="images/download-icon.gif" alt="download icon" />
+          </div>
+
+        </div>
+
+        <div class="caption">
+          <h1 class="caption-heading">Download your shows to watch offline.</h1>
+          <p class="caption-description">
+            Save your favorites easily and always have something to watch.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- THE SECTION WITH NO IMAGES -->
+    <section id="fourth-section" class="section">
+      <div class="section-div" class="fourth-section">
+
+        <div class="caption">
+          <h1 class="caption-heading">Watch everywhere.</h1>
+          <p class="caption-description">
+            Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- THE KIDS SECTION -->
+    <section id="fifth-section" class="section">
+      <div class="section-div" class="fifth-section">
+
+        <div class="image-description" class="adjust-flex">
+          <img id="kids-image" src="images/kidsImage.png" alt="kids arena" />
+        </div>
+        <div class="caption">
+          <h1 class="caption-heading">Create profiles for kids.</h1>
+          <p class="caption-description">
+            Send kids on adventures with their favorite characters
+            in a space made just for them—free with your membership.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section id="sixth-section" class="section">
+      <div class="section-div" class="sixth-section">
+
+        <div class="faq-section">
+          <h1 class="caption-heading">Frequently Asked Questions</h1>
+          <div class="details-container">
+
+            <details>
+              <summary>What is Netflix?<img src="images/plusImage.PNG" alt="plus icon"></summary>
+              <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime,
+                documentaries, and more on thousands of internet-connected devices.</p>
+
+              <p> You can watch as much as you want, whenever you want without a single commercial – all for one low
+                monthly price. There's always something new to discover and new TV shows and movies are added every
+                week!</p>
+            </details>
+            <details>
+              <summary>How much does Netflix cost?<img src="images/plusImage.PNG" alt="plus icon"></summary>
+              <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed
+                monthly fee. Plans range from ₦1,200 to ₦4,400 a month. No extra costs, no contracts.</p>
+            </details>
+            <details>
+              <summary>Where can I watch?<img src="images/plusImage.PNG" alt="plus icon"></summary>
+              <p>Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com
+                from your personal computer or on any internet-connected device that offers the Netflix app, including
+                smart TVs, smartphones, tablets, streaming media players and game consoles.</p>
+
+              <p>You can also download your favorite shows with the iOS, Android, or Windows 10 app. Use downloads to
+                watch while you're on the go and without an internet connection. Take Netflix with you anywhere.</p>
+            </details>
+            <details>
+              <summary>How do I cancel?<img src="images/plusImage.PNG" alt="plus icon"></summary>
+              <p>Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your
+                account online in two clicks. There are no cancellation fees – start or stop your account anytime.</p>
+            </details>
+            <details>
+              <summary>What can I watch on Netflix?<img src="images/plusImage.PNG" alt="plus icon"></summary>
+              <p>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning
+                Netflix originals, and more. Watch as much as you want, anytime you want.</p>
+            </details>
+            <details>
+              <summary>Is Netflix good for kids?<img src="images/plusImage.PNG" alt="plus icon"></summary>
+              <p>The Netflix Kids experience is included in your membership to give parents control while kids enjoy
+                family-friendly TV shows and movies in their own space.</p>
+
+              <p>Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of
+                content kids can watch and block specific titles you don’t want kids to see.</p>
+            </details>
+
+          </div>
+
+          <form>
+            <div class="main-form">
+              <label>
+                Ready to watch? Enter your email to create or restart your
+                membership.
+              </label>
+              <div id="form-base">
+                <input type="email" placeholder="Email address" />
+                <button>Get Started ></button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <section id="seventh-section" class="section">
+      <div class="section-div" class="seventh-section">
+
+        <div id="footer">
+          <p>Questions? Contact us.</p>
+          <div id="footer-links">
+            <ul class="sublinks">
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Investor Relations</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Speed Test</a></li>
+            </ul>
+
+            <ul class="sublinks">
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Jobs</a></li>
+              <li><a href="#">Cookie Preferences</a></li>
+              <li><a href="#">Legal Notices</a></li>
+            </ul>
+
+            <ul class="sublinks">
+              <li><a href="#">Account</a></li>
+              <li><a href="#">Ways to Watch</a></li>
+              <li><a href="#">Corporate Information</a></li>
+              <li><a href="#">Only on Netflix</a></li>
+            </ul>
+
+            <ul class="sublinks">
+              <li><a href="#">Media Center</a></li>
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li style="visibility: hidden;"><a href="#">Nothing here</a></li>
+            </ul>
+          </div>
+          <p style="font-size:smaller ;">Netflix Nigeria</p>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</body>
+
+</html>
